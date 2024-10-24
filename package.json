@@ -1,0 +1,29 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "this is api for jhl",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "naeem",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "buffer": "^6.0.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-openid-connect": "^2.17.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.3",
+    "node-gyp": "^10.2.0",
+    "nodemailer": "^6.9.15",
+    "nodemon": "^3.1.4",
+    "otpauth": "^9.3.2"
+  }
+}
